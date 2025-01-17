@@ -1,0 +1,1957 @@
+{
+  "head": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "head",
+      "sinus"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "neck": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "neck"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "chest": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "chest"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "abdomen": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "abdomen",
+      "abd",
+      "urogram"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "pelvis": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "pelvis",
+      "urogram"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "upper extremity": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "upper extremity",
+      "upper",
+      "upper extremities"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "extremities"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "lower extremity": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "lower extremity",
+      "lower",
+      "lower extremities"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "extremities"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "spine": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "spine"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "breast": {
+    "type": "region",
+    "parent": null,
+    "keywords": [
+      "breast"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "breasts"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "orbit": {
+    "type": "subregion",
+    "parent": "head",
+    "keywords": [
+      "orbit"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "orbit"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "face": {
+    "type": "subregion",
+    "parent": "head",
+    "keywords": [
+      "face"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "skull base": {
+    "type": "subregion",
+    "parent": "head",
+    "keywords": [
+      "skull base",
+      "temporal"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "craniofacial": {
+    "type": "subregion",
+    "parent": "head",
+    "keywords": [
+      "craniofacial"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "brain": {
+    "type": "subregion",
+    "parent": "head",
+    "keywords": [
+      "brain",
+      "cerebral",
+      "intracranial",
+      "pituitary"
+    ],
+    "exclude_keywords": [
+      "arter"
+    ],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#FFB8DB"
+  },
+  "skull": {
+    "type": "structure",
+    "parent": "head",
+    "keywords": [
+      "skull"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "white",
+    "agnostic_structure": "bone"
+  },
+  "teeth": {
+    "type": "structure",
+    "parent": "face",
+    "keywords": [
+      "teeth",
+      "tooth",
+      "molar"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "white matter": {
+    "type": "structure",
+    "parent": "brain",
+    "keywords": [
+      "white matter"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "gray matter": {
+    "type": "structure",
+    "parent": "brain",
+    "keywords": [
+      "gray matter"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "gray"
+  },
+  "cerebellum": {
+    "type": "structure",
+    "parent": "brain",
+    "keywords": [
+      "cerebellum"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "pink"
+  },
+  "ventricles": {
+    "type": "structure",
+    "parent": "brain",
+    "keywords": [
+      "ventricles",
+      "ventricle"
+    ],
+    "exclude_keywords": [
+      "heart",
+      "cardiac"
+    ],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "ventricles"
+    },
+    "3DPR": true,
+    "color": "purple"
+  },
+  "corpus callosum": {
+    "type": "structure",
+    "parent": "brain",
+    "keywords": [
+      "corpus callosum"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "pink"
+  },
+  "amygdala": {
+    "type": "structure",
+    "parent": "brain",
+    "keywords": ["amygdala"],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": [
+        "amygdalas",
+        "amygdalae"
+      ]
+    },
+    "3DPR": true,
+    "color": "orange"
+  },
+  "hippocampus": {
+    "type": "structure",
+    "parent": "brain",
+    "keywords": [
+      "hippocamp"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": [
+        "hippocampi",
+        "hippocampuses"
+      ]
+    },
+    "3DPR": true,
+    "color": "yellow"
+  },
+  "thyroid": {
+    "type": "structure",
+    "parent": "neck",
+    "keywords": [
+      "thyroid"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#C35C56"
+  },
+  "heart": {
+    "type": "subregion",
+    "parent": "chest",
+    "keywords": [
+      "heart",
+      "cardiac"
+    ],
+    "exclude_keywords": [
+      "whole"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#681F1F"
+  },
+  "chest wall": {
+    "type": "subregion",
+    "parent": "chest",
+    "keywords": [
+      "chest wall"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "lung": {
+    "type": "structure",
+    "parent": "chest",
+    "keywords": [
+      "lung"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "lungs"
+    },
+    "3DPR": true,
+    "color": "#F68989"
+  },
+  "airway": {
+    "type": "structure",
+    "parent": "chest",
+    "keywords": [
+      "airway"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "misty rose"
+  },
+  "coronary arteries": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "coronary arteries"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#B40D1D"
+  },
+  "coronary sinus and cardiac veins": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "coronary sinus && cardiac veins"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#3E3EB2"
+  },
+  "left atrium": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "left atrium"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#DB2B73"
+  },
+  "left ventricle": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "left ventricle"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#AE3331"
+  },
+  "right atrium": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "right atrium"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#12439E"
+  },
+  "right ventricle": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "right ventricle"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#517ED1"
+  },
+  "pulmonary arteries": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "pulmonary arteries"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#ed9bde"
+  },
+  "ventricular myocardium": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "myocardium",
+      "myoc",
+      "cardiac && muscle"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#811d21"
+  },
+  "valves": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": ["valves"],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#ffcacd"
+  },
+  "surgical conduit, graft or device": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "conduit",
+      "graft",
+      "device"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": ""
+    },
+    "3DPR": true,
+    "color": "#8e8e8e"
+  },
+  "whole heart": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "whole heart"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#681F1F"
+  },
+  "liver": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "liver"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#B54516"
+  },
+  "biliary tree": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "biliary tree"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "green"
+  },
+  "portal vein": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "portal vein",
+      "portal"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#3E3EB2"
+  },
+  "gallbladder": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "gallbladder"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#4B4D24"
+  },
+  "adrenal gland": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "adrenal gland",
+      "adrenal"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "glands"
+    },
+    "3DPR": true,
+    "color": "#d397b2"
+  },
+  "kidney": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "kidney",
+      "renal",
+      "urogram"
+    ],
+    "exclude_keywords": [
+      "adrenal"
+    ],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "kidneys"
+    },
+    "3DPR": true,
+    "color": "#81302D"
+  },
+  "ureter": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "ureter"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "ureters"
+    },
+    "3DPR": true,
+    "color": "#E5CA7A"
+  },
+  "pancreas": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "pancrea"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#d5bd49"
+  },
+  "spleen": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "spleen"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#B03061"
+  },
+  "prostate": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "prostate",
+      "urogram"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#DD9490"
+  },
+  "seminal vesicle": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "seminal vesicle"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "vesicles"
+    },
+    "3DPR": true,
+    "color": "#F6C8C5"
+  },
+  "uterus": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "uterus"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#954B60"
+  },
+  "cervix": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "cervix"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "ovary": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "ovary",
+      "ovaries"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "ovaries"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "testicle": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "testicle"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "testicles"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "bladder": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "bladder"
+    ],
+    "exclude_keywords": [
+      "gal"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#CA6F71"
+  },
+  "urethra": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "urethra"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "vagina": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "vagina"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#BB858C"
+  },
+  "penis": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "penis"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "shoulder": {
+    "type": "subregion",
+    "parent": "upper extremity",
+    "keywords": [
+      "shoulder"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "shoulder"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "upper arm": {
+    "type": "subregion",
+    "parent": "upper extremity",
+    "keywords": [
+      "upper arm"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "arms"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "elbow": {
+    "type": "subregion",
+    "parent": "upper extremity",
+    "keywords": [
+      "elbow"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "elbows"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "forearm": {
+    "type": "subregion",
+    "parent": "upper extremity",
+    "keywords": [
+      "forearm"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "arms"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "wrist": {
+    "type": "subregion",
+    "parent": "upper extremity",
+    "keywords": [
+      "wrist"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "wrists"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "hand": {
+    "type": "subregion",
+    "parent": "upper extremity",
+    "keywords": [
+      "hand"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "hands"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "hip": {
+    "type": "subregion",
+    "parent": "lower extremity",
+    "keywords": [
+      "hip"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "hips"
+    },
+    "3DPR": true,
+    "color": "white"
+  },
+  "thigh": {
+    "type": "subregion",
+    "parent": "lower extremity",
+    "keywords": [
+      "thigh"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "thighs"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "knee": {
+    "type": "subregion",
+    "parent": "lower extremity",
+    "keywords": [
+      "knee"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "knees"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "lower leg": {
+    "type": "subregion",
+    "parent": "lower extremity",
+    "keywords": [
+      "lower leg"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "legs"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "ankle": {
+    "type": "subregion",
+    "parent": "lower extremity",
+    "keywords": [],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "ankles"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "foot": {
+    "type": "subregion",
+    "parent": "lower extremity",
+    "keywords": [
+      "foot",
+      "feet"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "feet"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "cervical": {
+    "type": "subregion",
+    "parent": "spine",
+    "keywords": [
+      "cervical",
+      "spine && neck",
+      "c-spine",
+      "cspine"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#E6DECC"
+  },
+  "thoracic": {
+    "type": "subregion",
+    "parent": "spine",
+    "keywords": [
+      "thoracic",
+      "t-spine",
+      "tspine"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#D5C29F"
+  },
+  "lumbar": {
+    "type": "subregion",
+    "parent": "spine",
+    "keywords": [
+      "lumbar",
+      "l-spine",
+      "lspine"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#E6DECC"
+  },
+  "sacrococcygeal": {
+    "type": "subregion",
+    "parent": "spine",
+    "keywords": [
+      "sacrococcygeal",
+      "sacrum"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#E6DECC"
+  },
+  "aorta": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "aorta"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "red"
+  },
+  "artery": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "arter"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#B40D1D"
+  },
+  "vein": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "vein",
+      "veinous",
+      "venous"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#3E3EB2"
+  },
+  "collateral vessel": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "collateral vessel"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "red"
+  },
+  "bone": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "bone",
+      "skelet"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#E6DECC"
+  },
+  "nerve": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "nerve"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#F5D787"
+  },
+  "spinal cord": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "spinal cord"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": "#fbf9ef"
+  },
+  "lymphatic": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "lymphatic"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#e2fcef"
+  },
+  "aerodigestive tract": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "aerodigestive tract"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "gi tract": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "gi tract"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "muscle/tendon": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "muscle",
+      "tendon"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#f08066"
+  },
+  "ligament": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "ligament"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#fff6ff"
+  },
+  "cartilage": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "cartilage"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "tumor": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "tumor",
+      "mass",
+      "growth",
+      "cancer",
+      "neoplasm",
+      "sarcoma",
+      "adenoma",
+      "fibroma"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": "#90EE90"
+  },
+  "skin surface": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "skin"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "soft tissue": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "soft tissue"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": true,
+    "color": null
+  },
+  "hardware": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "hardware"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": ""
+    },
+    "3DPR": true,
+    "color": "#676766"
+  },
+  "cyst": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [
+      "cyst",
+      "blister"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": ""
+    },
+    "3DPR": true,
+    "color": "#ffd82a"
+  },
+  "other": {
+    "type": "structure",
+    "parent": "agnostic",
+    "keywords": [],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": null
+  },
+  "tibia": {
+    "type": "comment",
+    "structure": "bone",
+    "parent": "lower leg",
+    "keywords": [
+      "shank",
+      "shinbone",
+      "cnemis",
+      "shin"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "tibias"
+    },
+    "3DPR": false,
+    "color": "#E6DECC"
+  },
+  "fibula": {
+    "type": "comment",
+    "structure": "bone",
+    "parent": "lower leg",
+    "keywords": [
+      "calf"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "fibulas"
+    },
+    "3DPR": false,
+    "color": "#E6DECC"
+  },
+  "radius": {
+    "type": "comment",
+    "structure": "bone",
+    "parent": "forearm",
+    "keywords": [
+      "radial"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": [
+        "radii",
+        "radiuses"
+      ]
+    },
+    "3DPR": false,
+    "color": "#E6DECC"
+  },
+  "ulna": {
+    "type": "comment",
+    "structure": "bone",
+    "parent": "forearm",
+    "keywords": [],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": [
+        "ulnas",
+        "ulnae"
+      ]
+    },
+    "3DPR": false,
+    "color": "#E6DECC"
+  },
+  "implant": {
+    "type": "comment",
+    "structure": "hardware",
+    "parent": "agnostic",
+    "keywords": [
+      "implant",
+      "metal"
+    ],
+    "exclude_keywords": [
+      "no metal"
+    ],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": "#9C9D9C"
+  },
+  "coils": {
+    "type": "comment",
+    "structure": "hardware",
+    "parent": "agnostic",
+    "keywords": [
+      "coil",
+      "coiled",
+      "coiling",
+      "web"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": "#808080"
+  },
+  "craniotomy": {
+    "type": "comment",
+    "parent": "skull",
+    "keywords": [],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": "white"
+  },
+  "ribs": {
+    "type": "comment",
+    "structure": "bone",
+    "parent": "chest wall",
+    "keywords": [
+      "rib",
+      "rib cage",
+      "costae"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": "#E6DECC"
+  },
+  "vertebral arteries": {
+    "type": "comment",
+    "structure": "artery",
+    "parent": "head",
+    "keywords": [
+      "vertebral"
+    ],
+    "exclude_keywords": [
+      "column",
+      "body",
+      "disc",
+      "lamina",
+      "process",
+      "spin"
+    ],
+    "laterality": {
+      "requirement": "required"
+    },
+    "3DPR": false,
+    "color": "#B40D1D"
+  },
+  "internal carotid arteries": {
+    "type": "comment",
+    "structure": "artery",
+    "parent": "head",
+    "keywords": [
+      "middle cerebral",
+      "internal carotid",
+      "ica"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required"
+    },
+    "3DPR": false,
+    "color": "#B40D1D"
+  },
+  "vertebrobasilar arteries": {
+    "type": "comment",
+    "structure": "artery",
+    "parent": "head",
+    "keywords": [
+      "vertebrobasilar",
+      "vertebral && basilar"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#B40D1D"
+  },
+  "meningioma": {
+    "type": "comment",
+    "structure": "tumor",
+    "parent": "head",
+    "keywords": [],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": "#9a2828"
+  },
+  "hepatic veins": {
+    "type": "comment",
+    "structure": "vein",
+    "parent": "abdomen",
+    "keywords": [
+      "hepatic && vein",
+      "hepatic && ivc"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#33bdf2"
+  },
+  "ivc": {
+    "type": "comment",
+    "structure": "vein",
+    "parent": "agnostic",
+    "keywords": [
+      "ivc",
+      "inferior vena cava",
+      "inferior && vena",
+      "inf && vena && cava"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#33bdf2"
+  },
+  "svc": {
+    "type": "comment",
+    "structure": "vein",
+    "parent": "agnostic",
+    "keywords": [
+      "svc",
+      "superior vena cava",
+      "superior && vena",
+      "sup && vena && cava"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#33bdf2"
+  },
+  "calcification": {
+    "type": "comment",
+    "structure": "other",
+    "parent": "agnostic",
+    "keywords": [
+      "crystalliz",
+      "calcium",
+      "calcified",
+      "ossification",
+      "ossified"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": "#ffefd7"
+  },
+  "femur": {
+    "type": "comment",
+    "structure": "bone",
+    "parent": "thigh",
+    "keywords": [
+      "femora",
+      "thigh && bone"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "femurs"
+    },
+    "3DPR": false,
+    "color": "#E6DECC"
+  },
+  "iliac vein": {
+    "type": "comment",
+    "structure": "vein",
+    "parent": "pelvis",
+    "keywords": [
+      "hypogastric && vein",
+      "iliac && vein"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "veins"
+    },
+    "3DPR": false,
+    "color": "#3E3EB2"
+  },
+  "iliac artery": {
+    "type": "comment",
+    "structure": "artery",
+    "parent": "pelvis",
+    "keywords": [
+      "hypogastric && artery",
+      "iliac && artery",
+      "hypogastric && arteries",
+      "iliac && arteries"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "arteries"
+    },
+    "3DPR": false,
+    "color": "#B40D1D"
+  },
+  "iliopsoas muscle": {
+    "type": "comment",
+    "structure": "muscle/tendon",
+    "parent": "pelvis",
+    "keywords": [
+      "iliopsoas",
+      "psoas && major",
+      "iliacus && muscle"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "muscles"
+    },
+    "3DPR": false,
+    "color": null
+  },
+  "vertebra": {
+    "type": "comment",
+    "structure": "bone",
+    "parent": "spine",
+    "keywords": [
+      "vertebra",
+      "vertebrae"
+    ],
+    "exclude_keywords": [
+      "vertebral"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#E6DECC"
+  },
+  "blood vessels": {
+    "type": "comment",
+    "structure": "other",
+    "parent": "agnostic",
+    "keywords": [
+      "vessel"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": "#a42000"
+  },
+  "lesion": {
+    "type": "comment",
+    "structure": "other",
+    "parent": "agnostic",
+    "keywords": [
+      "sore",
+      "ulcer",
+      "lacerat",
+      "cut"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "sometimes"
+    },
+    "3DPR": false,
+    "color": null
+  },
+  "heterotopia": {
+    "type": "comment",
+    "structure": "other",
+    "parent": "brain",
+    "keywords": [
+      "heterotopia",
+      "heterotopies"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required",
+      "bilateral": "heterotopies"
+    },
+    "3DPR": false,
+    "color": "pink"
+  },
+  "bronchus": {
+    "type": "comment",
+    "structure": "other",
+    "parent": "lung",
+    "keywords": [
+      "bronchi"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "required"
+    },
+    "3DPR": false,
+    "color": "#CE6B4E"
+  },
+  "anal verge": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "anal",
+      "anus"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#DAC0B5"
+  },
+  "colon": {
+    "type": "structure",
+    "parent": [
+      "abdomen",
+      "pelvis"
+    ],
+    "keywords": [
+      "large && intestine",
+      "lg && intestine"
+    ],
+    "exclude_keywords": [
+      "small"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#C07761"
+  },
+  "small intestine": {
+    "type": "structure",
+    "parent": [
+      "abdomen",
+      "pelvis"
+    ],
+    "keywords": [
+      "small && intestine",
+      "sm && intestine",
+      "duodenum",
+      "jejunum",
+      "ileum"
+    ],
+    "exclude_keywords": [
+      "large"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#C07761"
+  },
+  "external sphincter": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "external && sphincter",
+      "ext && sphincter"
+    ],
+    "exclude_keywords": [
+      "inferior",
+      "inf",
+      "middle",
+      "mid",
+      "superior",
+      "sup",
+      "internal",
+      "int"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#CD5365"
+  },
+  "external sphincter inferior": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "external && sphincter",
+      "ext && sphincter",
+      "inferior && sphincter",
+      "inf && sphincter"
+    ],
+    "exclude_keywords": [
+      "middle",
+      "mid",
+      "superior",
+      "sup",
+      "internal",
+      "int"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#920D11"
+  },
+  "external sphincter middle": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "external && sphincter",
+      "ext && sphincter",
+      "middle && sphincter",
+      "mid && sphincter"
+    ],
+    "exclude_keywords": [
+      "inferior",
+      "inf",
+      "superior",
+      "sup",
+      "internal",
+      "int"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#BD4538"
+  },
+  "external sphincter superior": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "external && sphincter",
+      "ext && sphincter",
+      "superior && sphincter",
+      "sup && sphincter"
+    ],
+    "exclude_keywords": [
+      "inferior",
+      "inf",
+      "middle",
+      "mid",
+      "internal",
+      "int"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#CD7463"
+  },
+  "internal sphincter": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "internal && sphincter",
+      "int && sphincter"
+    ],
+    "exclude_keywords": [
+      "inferior",
+      "inf",
+      "middle",
+      "mid",
+      "superior",
+      "sup"
+    ],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#AF5244"
+  },
+  "levator ani": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "levator ani"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#861F22"
+  },
+  "pubococcygeus": {
+    "type": "comment",
+    "parent": "levator ani",
+    "keywords": [
+      "pubococcygeus"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#EF795A"
+  },
+  "iliococcygeus": {
+    "type": "comment",
+    "parent": "levator ani",
+    "keywords": [
+      "iliococcygeus"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#DB795A"
+  },
+  "puborectalis": {
+    "type": "comment",
+    "parent": "levator ani",
+    "keywords": [
+      "puborectalis"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#C8795A"
+  },
+  "mesorectal fascia": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "mesorectal && fascia"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#B19258"
+  },
+  "peritoneal reflection": {
+    "type": "structure",
+    "parent": "abdomen",
+    "keywords": [
+      "peritoneal && reflection"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#F75B00"
+  },
+  "rectum": {
+    "type": "structure",
+    "parent": "pelvis",
+    "keywords": [
+      "rectum"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#DD8779"
+  }
+}

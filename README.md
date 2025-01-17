@@ -38,3 +38,6 @@ String of the color name or hex value that the part should be colored.
 
 ### agnostic_structure
 Describes the material the part is made of, for example, "bone" or "blood vessel."
+
+# anatomical_parts_lookup.py
+GUI that lets you type in an anatomical term or browse the available terms to see their JSON descriptions.

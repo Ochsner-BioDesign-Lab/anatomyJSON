@@ -442,7 +442,7 @@
     "type": "structure",
     "parent": "heart",
     "keywords": [
-      "left ventricle"
+      "left && ventricle"
     ],
     "exclude_keywords": [],
     "laterality": {
@@ -468,7 +468,7 @@
     "type": "structure",
     "parent": "heart",
     "keywords": [
-      "right ventricle"
+      "right && ventricle"
     ],
     "exclude_keywords": [],
     "laterality": {
@@ -481,7 +481,7 @@
     "type": "structure",
     "parent": "heart",
     "keywords": [
-      "pulmonary arteries"
+      "pulmonary && arter"
     ],
     "exclude_keywords": [],
     "laterality": {
@@ -489,6 +489,20 @@
     },
     "3DPR": true,
     "color": "#ed9bde"
+  },
+    "pulmonary veins": {
+    "type": "structure",
+    "parent": "heart",
+    "keywords": [
+      "pulmonary && vein",
+      "pulmonary && ven"
+    ],
+    "exclude_keywords": [],
+    "laterality": {
+      "requirement": "not applicable"
+    },
+    "3DPR": false,
+    "color": "#fcbdd4"
   },
   "ventricular myocardium": {
     "type": "structure",
@@ -1068,7 +1082,9 @@
       "veinous",
       "venous"
     ],
-    "exclude_keywords": [],
+    "exclude_keywords": [
+      "pulmonary"
+    ],
     "laterality": {
       "requirement": "sometimes"
     },

@@ -488,7 +488,7 @@
       "requirement": "not applicable"
     },
     "3DPR": true,
-    "color": "#ed9bde"
+    "color": "#a1ebff"
   },
     "pulmonary veins": {
     "type": "structure",
@@ -502,7 +502,7 @@
       "requirement": "not applicable"
     },
     "3DPR": false,
-    "color": "#fcbdd4"
+    "color": "#ed9bde"
   },
   "ventricular myocardium": {
     "type": "structure",

@@ -1465,7 +1465,10 @@
       "internal carotid",
       "ica"
     ],
-    "exclude_keywords": [],
+    "exclude_keywords": [
+      "ical",
+      "ication"
+    ],
     "laterality": {
       "requirement": "required"
     },
